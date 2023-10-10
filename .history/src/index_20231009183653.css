@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: sonhe;
+  src: url('./fonts/sohne-700-normal.woff');
+}
+
+* {
+  margin : 0;
+}
+
+
+
+.title {
+  
+}

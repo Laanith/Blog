@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+  font-family:  "sohne", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  src: url('./fonts/sohne-700-normal.woff');
+}
+
+
+body {
+  display: inline;
+  min-height: calc(100%-150px);
+  min-width: 100%;
+}
+
+.title {
+  font-weight: 700;
+  font-family: "sohne", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

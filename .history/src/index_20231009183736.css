@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: sonhe, sans-serif;
+  src: url('./fonts/sohne-700-normal.woff');
+}
+
+* {
+  margin : 0;
+}
+
+
+
+.title {
+  font-weight: 700;
+  font-size: 42px;
+  font-family: sonhe,sans-serif;
+  
+}

@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: sonhe;
+  src: url();
+}
+
+* {
+  margin : 0;
+}
+
+
+
+.title {
+  
+}
