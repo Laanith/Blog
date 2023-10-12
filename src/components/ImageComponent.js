@@ -1,0 +1,7 @@
+function ImageComponent(props){
+    return (
+        <img src={props.props.imgSrc} style={{objectFit: props.props.type , transform : 'scale('+props.props.scale+')', width :'fit-content', height:'fit-content'}} alt={props.props.imgAlt}  className="mx-auto my-[20px] ImagePost"></img>
+    )
+}
+
+export default ImageComponent;
