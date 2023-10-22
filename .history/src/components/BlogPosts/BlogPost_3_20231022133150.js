@@ -9,8 +9,8 @@ const props = {
   type: "contain",
   imgAlt: "quote by May Sarton - Belgian Female Novelist",
   scale: 0.2,
-  marginTop: -450,
-  marginBottom : -450
+  marginTop: -500,
+  marginBottom : -500
 };
 
 function BlogPost_3() {
