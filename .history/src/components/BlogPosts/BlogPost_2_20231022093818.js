@@ -12,7 +12,7 @@ const props = {
   type: "contain",
   imgAlt: "train images",
   scale: 0.5,
-  marginTop: -130,
+  marginTop: -140,
   marginBottom: -100,
 };
 

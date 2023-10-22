@@ -12,7 +12,7 @@ const props = {
   type: "contain",
   imgAlt: "train images",
   scale: 0.5,
-  marginTop: -130,
+  marginTop: -160,
   marginBottom: -100,
 };
 
@@ -143,6 +143,23 @@ function BlogPost_2() {
           which was actually good. (There is a huge chance that the model has
           overfit to the train set, but actually, it didn't. I tried testing it
           with some random pics and it worked out pretty well. )<br></br>
+          <br></br>
+          <div className="flex justify-evenly">
+            <div>
+              <ImageComponent props={imgProps}></ImageComponent>
+              <br></br>
+              <span className="flex justify-center">
+                <strong>Input for the U-Net Model</strong>
+              </span>
+            </div>
+            <div>
+              <ImageComponent props={imgMaskProps}></ImageComponent>
+              <br></br>
+              <span className="flex justify-center">
+                <strong>Mask predicted by the U-Net model</strong>
+              </span>
+            </div>
+          </div>
           <br></br>
           <DoubleImageComponent prop1={imgProps} prop1Caption={prop1Caption} prop2={imgMaskProps} prop2Caption={prop2Caption}></DoubleImageComponent>
           <br></br>

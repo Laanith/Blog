@@ -12,7 +12,7 @@ const props = {
   type: "contain",
   imgAlt: "train images",
   scale: 0.5,
-  marginTop: -130,
+  marginTop: -160,
   marginBottom: -100,
 };
 
@@ -42,8 +42,8 @@ const DoubleImageProps = {
   prop1: imgProps,
   prop1Caption: prop1Caption,
   prop2: imgMaskProps,
-  prop2Caption: prop2Caption
-};
+  prop2Caption : prop2Caption
+}
 
 function BlogPost_2() {
   return (
@@ -144,7 +144,24 @@ function BlogPost_2() {
           overfit to the train set, but actually, it didn't. I tried testing it
           with some random pics and it worked out pretty well. )<br></br>
           <br></br>
-          <DoubleImageComponent prop1={imgProps} prop1Caption={prop1Caption} prop2={imgMaskProps} prop2Caption={prop2Caption}></DoubleImageComponent>
+          <div className="flex justify-evenly">
+            <div>
+              <ImageComponent props={imgProps}></ImageComponent>
+              <br></br>
+              <span className="flex justify-center">
+                <strong>Input for the U-Net Model</strong>
+              </span>
+            </div>
+            <div>
+              <ImageComponent props={imgMaskProps}></ImageComponent>
+
+              <br></br>
+              <span className="flex justify-center">
+                <strong>Mask predicted by the U-Net model</strong>
+              </span>
+            </div>
+          </div>
+          <br></br>
           <br></br>
           And oh, I forgot to annotate the U-Net model architecture and details.
           I know your curiosity makes you google it, but let me provide a{" "}
