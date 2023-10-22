@@ -6,8 +6,6 @@ import BlogPost_1 from './components/BlogPosts/BlogPost_1';
 import GithubMock from './components/GithubMock';
 import ProjectIdeas from './components/ProjectIdeas';
 import BlogPost_2 from './components/BlogPosts/BlogPost_2';
-import BlogPost_3 from './components/BlogPosts/BlogPost_3';
-
 
 function App() {
   return (

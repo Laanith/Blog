@@ -1,4 +1,4 @@
-// import Redirector_1 from "../BlogPostRedirectors/Redirector_1";
+import Redirector_1 from "../BlogPostRedirectors/Redirector_1";
 import Redirector_2 from "../BlogPostRedirectors/Redirector_2";
 import Redirector_3 from "../BlogPostRedirectors/Redirector_3";
 
