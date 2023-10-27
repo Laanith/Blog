@@ -15,7 +15,7 @@ function ProjectIdeas(){
 
         <ul className="mx-[40px] mt-[35px]">
             <li className="mb-[15px] text-gray-600 prompt mx-[30px]">
-                   Cricket world cup is now ruling the sports industry, and I love the fact that I am finding myself interested in  the sport. Well, I have an idea of a data visualisation project where I can scrape data about every ICC world cup player and display it on computer.
+                   Cricket world cup is now ruling the sports industry, and I love the fact that I am finding myself interested in  the sport
                     <br></br>
                     I should try to find a dataset for the project or else use web-scraping to make a dataset for myself.
 
