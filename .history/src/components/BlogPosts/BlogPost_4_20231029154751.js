@@ -27,7 +27,7 @@ function BlogPost_4() {
           <br></br>I am writing this to discuss the workflow of how I deployed
           the MNIST-classifier model into web using tensorflowjs. It's a
           relatively easy task actually, which took 4 days of my free time apart
-          from college. A small project that helps me code better. The work flow
+                  from college. A small project that helps me code better. The work flow
                   is as follows :
           <br></br>
           <br></br>1. Training a MNIST model on kaggle. Well, actually the

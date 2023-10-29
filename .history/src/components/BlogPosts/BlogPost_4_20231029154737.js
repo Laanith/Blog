@@ -28,8 +28,7 @@ function BlogPost_4() {
           the MNIST-classifier model into web using tensorflowjs. It's a
           relatively easy task actually, which took 4 days of my free time apart
           from college. A small project that helps me code better. The work flow
-                  is as follows :
-          <br></br>
+          is as follows :<br></br>
           <br></br>1. Training a MNIST model on kaggle. Well, actually the
           dataset is available in tensorflow itself. So I trained a model and
           saved it as '.h5' file (keras models are intended to have this
