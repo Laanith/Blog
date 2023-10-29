@@ -1,6 +1,6 @@
 import { useState } from "react";
 import BlogPost from "../components/BlogPost";
-import cpp from "../images/C++.png";
+import tf from "../images/tensorflow.png";
 
 function Redirector_3() {
   const [props, setProps] = useState({

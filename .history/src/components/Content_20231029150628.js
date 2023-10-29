@@ -9,7 +9,6 @@ function Content() {
             {/* <Redirector_1></Redirector_1> */}
             <Redirector_2></Redirector_2>
             <Redirector_3></Redirector_3>
-            <Redirector_4></Redirector_4>
         </div>
     );
 }

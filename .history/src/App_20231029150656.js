@@ -8,6 +8,7 @@ import ProjectIdeas from './components/ProjectIdeas';
 import BlogPost_2 from './components/BlogPosts/BlogPost_2';
 import BlogPost_3 from './components/BlogPosts/BlogPost_3';
 import BlogPost_4 from './components/BlogPosts/BlogPost_4';
+BlogPost_4
 
 
 function App() {
@@ -26,7 +27,7 @@ function App() {
           element={<BlogPost_2></BlogPost_2>}
         ></Route>
         <Route path="/cplusplus" element={<BlogPost_3></BlogPost_3>}></Route>
-        <Route path="/mnist-deployment" element={<BlogPost_4></BlogPost_4>}></Route>
+        <Route path="/cplusplus" element={<BlogPost_3></BlogPost_3>}></Route>
       </Routes>
     </BrowserRouter>
   );
