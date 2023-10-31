@@ -25,16 +25,10 @@ function ProjectIdeas(){
               <br></br>I should try to find a dataset for the project or else
               use web-scraping to make a dataset for myself.
               <br></br>
-              <br></br>
-              <strong>
-                <i>Update : Oct 31,2023,</i>
-                        </strong>{" "}
                         <br></br>
-              I have scraped out details of 10 teams participating in ICC World
-              Cup 2023. Now that I have the data, all that remains is data
-              visualisation.
-              <br></br>
-              Thanks.
+                        <i>Update : Oct 31,2023</i> I have scraped out details of 10 teams participating in ICC World Cup 2023.
+                        Now that I have the data, all that remains is data visualisation.
+                        <br></br>
             </li>
             {/* <li className="my-[15px]">
                 <p className="text-gray-600 prompt mx-[30px]">

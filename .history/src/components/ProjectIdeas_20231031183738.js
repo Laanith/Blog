@@ -28,8 +28,7 @@ function ProjectIdeas(){
               <br></br>
               <strong>
                 <i>Update : Oct 31,2023,</i>
-                        </strong>{" "}
-                        <br></br>
+              </strong>{" "}
               I have scraped out details of 10 teams participating in ICC World
               Cup 2023. Now that I have the data, all that remains is data
               visualisation.
