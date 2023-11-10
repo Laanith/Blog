@@ -1,0 +1,18 @@
+import { useState } from "react";
+import BlogPost from "../components/BlogPost";
+
+function Redirector_5() {
+  const [props, setProps] = useState({
+    title: "Revamp ! I discovered the power of CSS",
+    content:
+      "Look how I leveraged the power of CSS to make a minimal but nice looking UI",
+    imgAlt: "CSS",
+    imgSrc: "https://rehansaeed.com/images/hero/CSS-1600x900.png",
+    type: "contain",
+    link: "/articulation",
+  });
+
+  return <BlogPost props={props}></BlogPost>;
+}
+
+export default Redirector_5;

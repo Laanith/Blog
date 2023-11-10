@@ -29,7 +29,6 @@ function App() {
         ></Route>
         <Route path="/cplusplus" element={<BlogPost_3></BlogPost_3>}></Route>
         <Route path="/mnist-deployment" element={<BlogPost_4></BlogPost_4>}></Route>
-        <Route path="/revamp" element={<BlogPost_5></BlogPost_5>}></Route>
       </Routes>
     </BrowserRouter>
   );
