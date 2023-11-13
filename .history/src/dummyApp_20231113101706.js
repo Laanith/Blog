@@ -12,17 +12,6 @@ import BlogPost_5 from './components/BlogPosts/BlogPost_5';
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 function App() {
   return (
     <BrowserRouter>
@@ -41,8 +30,7 @@ function App() {
         <Route path="/cplusplus" element={<BlogPost_3></BlogPost_3>}></Route>
         <Route path="/mnist-deployment" element={<BlogPost_4></BlogPost_4>}></Route>
         <Route path="/revamp" element={<BlogPost_5></BlogPost_5>}></Route>
-
-
+				<Route path="/lawda" element={<BlogPost_13></BlogPost_13>}></Route>
 
       </Routes>
     </BrowserRouter>

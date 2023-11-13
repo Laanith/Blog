@@ -1,0 +1,15 @@
+# Create a Python script (example_script.py)
+# Save the following code in a file named example_script.py
+
+# example_script.py
+import sys
+import os
+
+def main():
+    # Print command line arguments
+    print("Number of arguments:", len(sys.argv))
+    print("Argument:", sys.argv[2])
+    
+
+if __name__ == "__main__":
+    main()

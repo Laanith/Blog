@@ -3,9 +3,6 @@ import Redirector_3 from "../BlogPostRedirectors/Redirector_3";
 import Redirector_4 from "../BlogPostRedirectors/Redirector_4";
 import Redirector_5 from "../BlogPostRedirectors/Redirector_5";
 
-
-
-
 function Content() {
     return (
         <div id="content">
@@ -14,8 +11,6 @@ function Content() {
             <Redirector_3></Redirector_3>
             <Redirector_4></Redirector_4>
             <Redirector_5></Redirector_5>
-
-
         </div>
     );
 }

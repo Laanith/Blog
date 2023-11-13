@@ -9,16 +9,7 @@ import BlogPost_2 from './components/BlogPosts/BlogPost_2';
 import BlogPost_3 from './components/BlogPosts/BlogPost_3';
 import BlogPost_4 from './components/BlogPosts/BlogPost_4';
 import BlogPost_5 from './components/BlogPosts/BlogPost_5';
-
-
-
-
-
-
-
-
-
-
+import BlogPost_7 from './components/BlogPosts/BlogPost_7';
 
 
 
@@ -41,8 +32,6 @@ function App() {
         <Route path="/cplusplus" element={<BlogPost_3></BlogPost_3>}></Route>
         <Route path="/mnist-deployment" element={<BlogPost_4></BlogPost_4>}></Route>
         <Route path="/revamp" element={<BlogPost_5></BlogPost_5>}></Route>
-
-
 
       </Routes>
     </BrowserRouter>
