@@ -1,0 +1,198 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "MonolisaItalic";
+  src: url("./fonts/MonoLisa-RegularItalic.ttf");
+}
+
+@font-face {
+  font-family: "sohne", sans-serif;
+  src: url("./fonts/sohne-700-normal.woff") format("woff");
+}
+
+@font-face {
+  font-family: "MonolisaRegular";
+  src: url("./fonts/MonoLisa-Regular.ttf");
+}
+
+
+@font-face {
+  font-family: 'SourceSerifPro';
+  src: url("./fonts/SourceSerifPro-Regular.otf");
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz@1,8..60&display=swap");
+
+@font-face {
+  font-family: "Consolas";
+  src: url("./fonts/CONSOLA.TTF");
+}
+
+@font-face {
+  font-family: "CMU-Typewriter";
+  src: url("./fonts/cmu.typewriter-text-regular.ttf");
+}
+
+@font-face {
+  font-family: "Albertsthal";
+  src: url("./fonts/Albertsthal\ Typewriter.ttf");
+}
+
+@font-face {
+  font-family: "UbuntuMono";
+  src: url("./fonts/UbuntuMonoNerdFont-Regular.ttf");
+}
+
+html {
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  background: transparent;
+  width: 4px;
+  display: flex;
+  justify-content: center;
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+  width: 2px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 2px;
+}
+
+body {
+  background-color: #f4f4f4;
+  font-size: 23px;
+  letter-spacing: 0px;
+  transition: font-variation-settings 0.3s ease-in-out;
+  -webkit-font-smoothing : antialiased;
+}
+
+body::selection {
+  color: green;
+}
+
+.cmu {
+  font-family: "CMU-Typewriter", monospace;
+  font-size: 23px;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+}
+
+.albertsthal {
+  font-family: "Albertsthal", monospace;
+  font-size: 23px;
+  letter-spacing: 0px;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+  font-weight: 500;
+  line-height: 40px;
+}
+
+.monolisa {
+  font-family: "MonolisaRegular";
+  font-size: 19px;
+  letter-spacing: -0.5px;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+  line-height: 40px;
+}
+
+.ubuntu {
+  font-family: "UbuntuMono";
+  font-size: 23px;
+  letter-spacing: 0.2px;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+}
+
+.source-serif {
+  font-family: "Source Serif 4", serif;
+  font-size: 28px;
+  letter-spacing: 0.3px;
+  line-height: 50px;
+  font-weight: 400;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+}
+
+.consolas {
+  font-family: "Consolas";
+  font-size: 23px;
+  letter-spacing: 0px;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+  line-height: 40px;
+}
+
+.segoe-ui {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 23px;
+  letter-spacing: 0.5px;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+  line-height: 40px;
+}
+
+
+.source-pro {
+  font-family: 'SourceSerifPro';
+  line-height: 40px;
+  font-size: 23px;
+  letter-spacing: 0.3px;
+}
+
+.sohne {
+  font-family: "sohne", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  letter-spacing: -0.462px;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: 100%;
+}
+
+ul#font-display > li {
+  padding: 15px;
+  border: 4px solid rgb(179, 172, 172);
+  border-radius: 23px;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+}
+
+ul#font-display > li:hover {
+  background-color: grey;
+  color: white;
+}
+
+.img-grad {
+  background: linear-gradient(180deg, rgba(18, 17, 17, 0.307), black);
+}
+
+.read-time {
+  font-family: "sohne", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: -0.75px;
+}
+
+.date {
+  font-weight: bold;
+}
+
+.SHADOW {
+  box-shadow: none;
+  transition: box-shadow 0.5s;
+}
+
+.SHADOW:hover {
+  box-shadow: 4px 4px 15px rgb(84, 84, 84);
+  transition: box-shadow 0.5s;
+}
+
