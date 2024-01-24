@@ -57,7 +57,7 @@ function BlogPost_5() {
           <br />
           <br />
           Meanwhile, my university professors who remained dormant until my 5th
-          semester started off this new semester by announcing us course
+          semester stared off this new semester by announcing us course
           projects. Wow again. 6 course projects in total, one for each course.
           A professor teaching another course called MMDP ( Multi modal data
           processing and learning ) also announced two more mini projects. I
